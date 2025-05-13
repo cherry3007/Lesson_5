@@ -1,5 +1,4 @@
 import React from 'react';
-import vector2 from './assets/vector2.png';
 
 
 const App = () => {
@@ -15,8 +14,8 @@ const App = () => {
               <li>Services</li>
               <li>Offers</li>
             </ul>
-            <img src="./src/assets/icon.png" alt="Icon" className="icon" />
-            <button className="contact"><img src="./src/assets/phone.png" alt="Phone" /> Contact</button>
+            <img src="/icon.png" alt="Icon" className="icon" />
+            <button className="contact"><img src="/phone.png" alt="Phone" /> Contact</button>
           </nav>
           <div className="header-content">
             <div className="header-content_text">
@@ -24,9 +23,9 @@ const App = () => {
               <p>Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
               <button className="order">Order Now</button>
               <p className="p">Watch Video</p>
-              <img src="./src/assets/pause.png" alt="" className="img" />
+              <img src="/pause.png" alt="" className="img" />
             </div>
-            <img src="./src/assets/Intersect.png" alt="" className="img2" />
+            <img src="/Intersect.png" alt="" className="img2" />
           </div>
         </div>
       </header>
@@ -37,22 +36,22 @@ const App = () => {
             <h2>Popular Categories</h2>
             <div className="section-content_cards">
               <div className="section-content_card">
-                <img src="./src/assets/card.png" alt="" />
+                <img src="/card.png" alt="" />
                 <h3>Main Dish</h3>
                 <p>(86 dishes)</p>
               </div>
               <div className="section-content_card">
-                <img src="./src/assets/card1.png" alt="" />
+                <img src="/card1.png" alt="" />
                 <h3>Break Fast</h3>
                 <p>(12 break fast)</p>
               </div>
               <div className="section-content_card">
-                <img src="./src/assets/card2.png" alt="" />
+                <img src="/card2.png" alt="" />
                 <h3>Dessert</h3>
                 <p>(48 dessert)</p>
               </div>
               <div className="section-content_card">
-                <img src="./src/assets/card3.png" alt="" />
+                <img src="/card3.png" alt="" />
                 <h3>Browse All</h3>
                 <p>(255 Items)</p>
               </div>
@@ -61,24 +60,24 @@ const App = () => {
           <div className="section-content_2">
             <h2>Special Dishes</h2>
             <h3>Standout Dishes From Our Menu</h3>
-            <img src="./src/assets/strelki.png" alt="" className="imgg" />
+            <img src="/strelki.png" alt="" className="imgg" />
             <div className="section-content_cards2">
               <div className="section-content_card2">
-                <img src="./src/assets/salad.png" alt="" />
+                <img src="/salad.png" alt="" />
                 <h4>Fattoush salad</h4>
                 <p>Description of the item</p>
                 <h5><span style={{ color: "#FF6868" }}>$</span>24.00</h5>
                 <h6>⭐️4.9</h6>
               </div>
               <div className="section-content_card2">
-                <img src="./src/assets/salad1.png" alt="" />
+                <img src="/salad1.png" alt="" />
                 <h4>Vegetable salad</h4>
                 <p>Description of the item</p>
                 <h5><span style={{ color: "#FF6868" }}>$</span>26.00</h5>
                 <h6>⭐️4.6</h6>
               </div>
               <div className="section-content_card2">
-                <img src="./src/assets/salad2.png" alt="" />
+                <img src="/salad2.png" alt="" />
                 <h4>Egg vegi salad</h4>
                 <p>Description of the item</p>
                 <h5><span style={{ color: "#FF6868" }}>$</span>23.00</h5>
@@ -90,12 +89,12 @@ const App = () => {
       </section>
       <section className="section2">
         <div className="container">
-          <img src="./src/assets/chef.png" alt="" />
+          <img src="/chef.png" alt="" />
           <div className="section_2">
             <h1>Testimonials</h1>
             <h2>What Our Customers Say About Us</h2>
             <p>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
-            <img src="./src/assets/customer.png" alt="" className="customer" />
+            <img src="/customer.png" alt="" className="customer" />
           </div>
         </div>
       </section>
@@ -112,22 +111,22 @@ const App = () => {
           </div>
           <div className="services-right">
             <div className="service-box">
-              <img src="./src/assets/vector.png" alt="Catering" />
+              <img src="/vector.png" alt="Catering" />
               <h4>CATERING</h4>
               <p>Delight your guests with our flavors and presentation</p>
             </div>
             <div className="service-box">
-              <img src="./src/assets/vector1.png" alt="Fast Delivery" />
+              <img src="/vector1.png" alt="Fast Delivery" />
               <h4>FAST DELIVERY</h4>
               <p>We deliver your order promptly to your door</p>
             </div>
             <div className="service-box">
-            <img src={vector2} alt="Online Ordering" />
+            <img src="/vector2.png" alt="Online Ordering" />
               <h4>ONLINE ORDERING</h4>
               <p>Explore menu & order with ease using our Online Ordering</p>
             </div>
             <div className="service-box">
-              <img src="./src/assets/vector3.png" alt="Gift Cards" />
+              <img src="/vector3.png" alt="Gift Cards" />
               <h4>GIFT CARDS</h4>
               <p>Give the gift of exceptional dining with Foodi Gift Cards</p>
             </div>
@@ -138,7 +137,8 @@ const App = () => {
       <div className="container">
         <div className="footer-top">
           <div className="footer-column">
-          <img src="./src/assets/logo.png" alt="Logo" />            <p>Savor the artistry where every dish is a culinary masterpiece</p>
+          <img src="/logo.png" alt="Logo" />           
+           <p>Savor the artistry where every dish is a culinary masterpiece</p>
           </div>
           <div className="footer-column">
             <h4>Useful links</h4>
