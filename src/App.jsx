@@ -1,4 +1,6 @@
 import React from 'react';
+import vector2 from './assets/vector2.png';
+
 
 const App = () => {
   return (
@@ -6,7 +8,7 @@ const App = () => {
       <header className="header">
         <div className="container">
           <nav className="nav">
-            <img src="./src/assets/logo.png" alt="Logo" />
+            <img src="/logo.png" alt="Logo" />
             <ul>
               <li>Home</li>
               <li>Menu</li>
@@ -120,7 +122,7 @@ const App = () => {
               <p>We deliver your order promptly to your door</p>
             </div>
             <div className="service-box">
-              <img src="./src/assets/vector2.png" alt="Online Ordering" />
+            <img src={vector2} alt="Online Ordering" />
               <h4>ONLINE ORDERING</h4>
               <p>Explore menu & order with ease using our Online Ordering</p>
             </div>
